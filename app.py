@@ -10,6 +10,7 @@ import plotly.express as px
 from dotenv import load_dotenv
 import os
 import numpy as np
+from pathlib import Path
 
 #-----------APP CONFIG---------------#
 APP_NAME = 'Churn Prediction App'
@@ -34,7 +35,7 @@ if 'key' not in st.session_state:
     st.session_state['key'] = 'begin'
 
 def save_data(df):
-    open('__df__.csv', 'w').write(df.to_csv(index=False))
+    open(Path('./Data/__df__.csv'), 'w').write(df.to_csv(index=False))
 
 # Draw Map
 def churn_map(df):
@@ -99,7 +100,7 @@ def get_data():
             return None
     
     else:
-        df = pd.read_csv('__df__.csv', 
+        df = pd.read_csv(Path('./Data/__df__.csv'), 
                         encoding='UTF-8',
                         index_col=False)
         return df
