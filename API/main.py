@@ -8,7 +8,7 @@ import numpy as np
 
 #--------------------------#
 
-# Intantiate an API Instance
+# Instantiate an API Instance
 app = FastAPI(title="Churn Prediction API", version='1.0')
 
 #--------------------------#
