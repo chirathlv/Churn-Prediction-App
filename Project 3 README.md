@@ -7,11 +7,11 @@
 3. [Analysis and Data Cleanse](#Paragraph2)
 4. [Pre Processing Data](#Paragraph3)
 5. [Model Development](#Paragraph4)
-   1. [Identification](#SubParagraph4)
-   2. [Training](#SubParagraph5)
-   3. [Prediction](#Subparagraph6) 
-   4. [Evaluation with Visualisations](#Subparagraph7)
-5. [Web application](#Paragraph5)
+   1. [Model Identification](#SubParagraph4)
+   2. [Model Training](#SubParagraph5)
+   3. [Model Prediction](#Subparagraph6) 
+   4. [Model Evaluation](#Subparagraph7)
+5. [Web Application](#Paragraph5)
 6. [References](#Paragraph6)
 
 <div style="page-break-after: always;"></div>
@@ -63,7 +63,7 @@ The pipeline function has been used to automate the training, validation and pre
 Below is an overview Machine Learning Model Procedure. Insert ppt slide
 
 
-### Models <a name="subparagraph4"></a>
+### Model Identification <a name="subparagraph4"></a>
 The following models have been trained and tested:
 
 1. Logistic Regression
