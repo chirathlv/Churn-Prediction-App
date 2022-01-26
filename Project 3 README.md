@@ -9,7 +9,7 @@
 5. [Model Development](#Paragraph4)
    1. [Model Identification](#SubParagraph4)
    2. [Model Training](#SubParagraph5)
-   3. [Model Prediction](#Subparagraph6) 
+   3. [Model Predictions](#Subparagraph6) 
    4. [Model Evaluation](#Subparagraph7)
 5. [Web Application](#Paragraph5)
 6. [References](#Paragraph6)
