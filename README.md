@@ -35,9 +35,7 @@ This project has developed a web based application that facilitates the processi
 
 ### Data Sources <a name="subparagraph1"></a>
 
-Telco customer churn: IBM dataset
-
-This is IBM Cognos Analytics 11.1.3+ base samples dataset. Following is the summary of it.
+This is IBM Cognos Analytics 11.1.3+ base samples Telco customer churn dataset. There are total number of 7043 observations and 33 features. Here is the description of its features.
 
 | Feature             | Description                                                                                                                                                                                                   |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
