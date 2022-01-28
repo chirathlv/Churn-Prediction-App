@@ -1,9 +1,10 @@
 # Table of Contents
+
 1. [Introduction- Churn Predictor Application](#Introduction)
 2. [Data, Technology and Coding Standards](#Paragraph1)
    1. [Data Sources](#SubParagraph1)
-   2. [Technology Stack](#Subparagraph2) 
-   3. [Technical Solution]((#Subparagraph3) )
+   2. [Technology Stack](#Subparagraph2)
+   3. [Technical Solution](<(#Subparagraph3)>)
    4. [Coding and Release Standards](#Subparagraph4)
 3. [Analysis and Data Cleanse](#Paragraph2)
 4. [Data Pre Processing](#Paragraph3)
@@ -11,10 +12,10 @@
    1. [Machine Learning Overview](#SubParagraph5)
    2. [Models](#SubParagraph6)
    3. [Model Training](#SubParagraph7)
-   4. [Model Prediction](#Subparagraph8) 
+   4. [Model Prediction](#Subparagraph8)
    5. [Model Evaluation](#Subparagraph9)
-5. [Web Application](#Paragraph5)
-6. [References](#Paragraph6)
+6. [Web Application](#Paragraph5)
+7. [References](#Paragraph6)
 
 <div style="page-break-after: always;"></div>
 
@@ -24,7 +25,7 @@ ChatCo is a nascent telecommunications company based in the US. The organisation
 
 Therefore the organisation is looking for an application which incorporates modern machine learning algorithms to predict customer churn.
 
-This project has developed a web based application that facilitates the processing of new customer data into a pre-determined machine learning model to derive the churn/ retain value for the customer. 
+This project has developed a web based application that facilitates the processing of new customer data into a pre-determined machine learning model to derive the churn/ retain value for the customer.
 
 ## Data, Technology and Coding Standards <a name="paragraph1"></a>
 
@@ -36,10 +37,9 @@ This project has developed a web based application that facilitates the processi
 
 ### Coding and Release Standards <a name="subparagraph4"></a>
 
-
 ## Analysis and Data Cleanse <a name="paragraph2"></a>
 
-ChatCo has provided an initial though limited data set (via Kaggle) of its 7043 customers in the state of California. The project team has analysed this data set and determined that this represents a "Binary Classification type" machine learning problem. 
+ChatCo has provided an initial though limited data set (via Kaggle) of its 7043 customers in the state of California. The project team has analysed this data set and determined that this represents a "Binary Classification type" machine learning problem.
 
 Based on the above analysis, the project team has performed the following data cleansing activities:
 
@@ -53,12 +53,11 @@ Based on the above analysis, the project team has performed the following data c
 
 The cleansed data set has then been pre processed i.e. prepared for the application of the machine learning models. This has included the below:
 
-1. Selection of the target feature- Churn value has been selected as the target feature. 
-2. Application of the Label Encoder function to convert categorical and text data into numerical values. 
+1. Selection of the target feature- Churn value has been selected as the target feature.
+2. Application of the Label Encoder function to convert categorical and text data into numerical values.
 3. Application of the K Fold cross validation function to determine train and test data to avoid overfitting.
-4. Application of Standard Scaler function across the data set. This was required to normalise count values of certain fields that were disproportionate. 
+4. Application of Standard Scaler function across the data set. This was required to normalise count values of certain fields that were disproportionate.
 5. Application of oversampling tools to correct the imbalanced data.
-
 
 ## Model Development <a name="paragraph4"></a>
 
@@ -68,7 +67,7 @@ The pipeline function has been used to automate the training, validation and pre
 
 ## Machine Learning Overview <a name="subparagraph5"></a>
 
-Below is an overview Machine Learning Model Procedure. 
+Below is an overview Machine Learning Model Procedure.
 ![Machine Learning Overview](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Machine%20Learning%20Workflow.png)
 
 ### Models <a name="subparagraph6"></a>
@@ -76,46 +75,42 @@ Below is an overview Machine Learning Model Procedure.
 The following seven models have been trained and tested:
 
 1. Logistic Regression
-Logistic regression is a predictive modelling algorithm that is used when the Y variable is binary categorical in this instance Churn value i.e. it can take only two values like 1 or 0. The goal is to determine a mathematical equation that can be used to predict the probability of event 1 i.e. affirmative customer churn. 
+   Logistic regression is a predictive modelling algorithm that is used when the Y variable is binary categorical in this instance Churn value i.e. it can take only two values like 1 or 0. The goal is to determine a mathematical equation that can be used to predict the probability of event 1 i.e. affirmative customer churn.
 
 2. Support Vector Machine
-SVM or Support Vector Machine is a linear model for classification- this algorithm creates a line or a hyperplane which separates the data into classes.
+   SVM or Support Vector Machine is a linear model for classification- this algorithm creates a line or a hyperplane which separates the data into classes.
 
 3. Decision Tree
-Decision Tree uses a flowchart like a tree structure to show the predictions that result from a series of feature-based splits. It starts with a root node and ends with a decision made by leaves.
+   Decision Tree uses a flowchart like a tree structure to show the predictions that result from a series of feature-based splits. It starts with a root node and ends with a decision made by leaves.
 
 4. Random Forest
-Instead of relying on one decision tree, the random forest takes the prediction from each tree and based on the majority votes of predictions, and it predicts the final output.
+   Instead of relying on one decision tree, the random forest takes the prediction from each tree and based on the majority votes of predictions, and it predicts the final output.
 
 5. XGBoost
-XGBoost is a supervised learning algorithm, which attempts to accurately predict a target variable by combining the estimates of a set of simpler, weaker models.
+   XGBoost is a supervised learning algorithm, which attempts to accurately predict a target variable by combining the estimates of a set of simpler, weaker models.
 
 6. CatBoost
 
-
 7. Deep Learning using Keras
-
 
 ### Model Training <a name="subparagraph7"></a>
 
 The K fold cross validation technique has been used to determine Train and Test data for all models.
-Based on the prediction validation, hyper parameters have been further fine tuned. This is an iterative process which continues until the model has been trained well enough, reducing the cost of running the model while increasing its accuracy. 
+Based on the prediction validation, hyper parameters have been further fine tuned. This is an iterative process which continues until the model has been trained well enough, reducing the cost of running the model while increasing its accuracy.
 
 ### Model Predictions <a name="subparagraph8"></a>
 
-Below is the visual representation of the predictions for the various models: 
+Below is the visual representation of the predictions for the various models:
 
 ![Summary Results- All Models](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Model%20Results.PNG)
 
-
-![Accuracy Score Summary- All Models](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Accuracy%20Score%20Graph.pdf)
+![Accuracy Score Summary- All Models](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Accuracy%20Score%20Graph.PNG)
 
 ### Model Evaluation <a name="subparagraph9"></a>
 
 Based on the above, it has been determined that XGBoost Model provides the best prediction. Hence this model has been deployed to the Churn Prediction Application.
 
 The models' predictions have been constrained by the rather limited data set that ChatCo has provided.
-
 
 ## Web Application <a name="paragraph5"></a>
 
@@ -124,13 +119,13 @@ As requested by ChatCo, a web application with cloud based RestAPI has been deve
 Given below are the key user instructions for this web application:
 
 Steps:
+
 1. Store data per format in your local folder.
-2. Select "   " to upload the data.
+2. Select " " to upload the data.
 3. Verify that data upload is correct.
 4. Select "Predict" to obtain the Churn value for the data loaded.
 5. Review column 1 which displays Customer Churn.
-6. Apply filters to obtain a more granular view of the data. 
-
+6. Apply filters to obtain a more granular view of the data.
 
 ## References <a name="paragraph6"></a>
 
