@@ -95,7 +95,22 @@ This is IBM Cognos Analytics 11.1.3+ base samples Telco customer churn dataset. 
 
 ### Technical Solution <a name="subparagraph3"></a>
 
+Following is the Application Architecture from end to end.
+
+[Application Architecture](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Application%20Architecture.png)
+
 ### Coding and Release Standards <a name="subparagraph4"></a>
+
+Following rules have been applied during code development and testing:
+
+1. All variables must reflect their purpose. Underscore to be used as and when required.
+2. Each step of the code must contain comments to explain the purpose of the code.
+3. A git hub repository called Churn-Prediction-App must be set up with branches for each developer.
+4. Each developer must use their own git hub branch to code and unit test developed code.
+5. Lead developer must review code prior to merge.
+6. Lead developer is responsible for merging all code.
+7. Each developer must download the most recent code from main branch before commencing code changes.
+8. Each release must provide a brief message on changes made prior to committing the code.
 
 ## Analysis and Data Cleanse <a name="paragraph2"></a>
 
