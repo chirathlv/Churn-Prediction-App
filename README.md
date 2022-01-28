@@ -1,3 +1,7 @@
+# App Demo
+
+![App Demo](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Demo.gif)
+
 # Table of Contents
 
 1. [Introduction- Churn Predictor Application](#Introduction)
