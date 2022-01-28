@@ -39,41 +39,41 @@ Telco customer churn: IBM dataset
 
 This is IBM Cognos Analytics 11.1.3+ base samples dataset. Following is the summary of it.
 
-| Feature             | Description                                                                                                         |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| `CustomerID`        | A unique ID that identifies each customer                                                                           |
-| `Count`             | A value used in reporting/dashboarding to sum up the number of customers in a filtered set                          |
-| `Country`           | The country of the customer's primary residence                                                                     |
-| `State`             | The state of the customer's primary residence                                                                       |
-| `City`              | The city of the customer's primary residence                                                                        |
-| `Zip Code`          | The zip code of the customer's primary residence                                                                    |
-| `Lat Long`          | The combined latitude and longitude of the customer's primary residence                                             |
-| `Latitude`          | The latitude of the customer's primary residence                                                                    |
-| `Longitude`         | The longitude of the customer's primary residence                                                                   |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Senior Citizen`    | Indicates if the customer is 65 or older: Yes, No                                                                   |
-| `Partner`           | Indicate if the customer has a partner: Yes, No                                                                     |
-| `Dependents`        | Indicates if the customer lives with any dependents: Yes, No                                                        |
-| `Tenure Months`     | Indicates the total amount of months that the customer has been with the company by the end of the quarter          |
-| `Phone Service`     | Indicates if the customer subscribes to home phone service with the company: Yes, No                                |
-| `Multiple Lines`    | Indicates if the customer subscribes to multiple telephone lines with the company: Yes, No                          |
-| `Internet Service`  | Indicates if the customer subscribes to Internet service with the company: No, DSL, Fiber Optic, Cable              |
-| `Online Security`   | Indicates if the customer subscribes to an additional online security service provided by the company: Yes, No      |
-| `Online Backup`     | Indicates if the customer subscribes to an additional online backup service provided by the company: Yes, No        |
-| `Device Protection` | Indicates if the customer subscribes to an additional device protection plan for their Internet equipment : Yes, No |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
-| `Gender`            | The customer's gender: Male, Female                                                                                 |
+| Feature             | Description                                                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `CustomerID`        | A unique ID that identifies each customer                                                                                      |
+| `Count`             | A value used in reporting/dashboarding to sum up the number of customers in a filtered set                                     |
+| `Country`           | The country of the customer's primary residence                                                                                |
+| `State`             | The state of the customer's primary residence                                                                                  |
+| `City`              | The city of the customer's primary residence                                                                                   |
+| `Zip Code`          | The zip code of the customer's primary residence                                                                               |
+| `Lat Long`          | The combined latitude and longitude of the customer's primary residence                                                        |
+| `Latitude`          | The latitude of the customer's primary residence                                                                               |
+| `Longitude`         | The longitude of the customer's primary residence                                                                              |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Senior Citizen`    | Indicates if the customer is 65 or older: Yes, No                                                                              |
+| `Partner`           | Indicate if the customer has a partner: Yes, No                                                                                |
+| `Dependents`        | Indicates if the customer lives with any dependents: Yes, No                                                                   |
+| `Tenure Months`     | Indicates the total amount of months that the customer has been with the company by the end of the quarter                     |
+| `Phone Service`     | Indicates if the customer subscribes to home phone service with the company: Yes, No                                           |
+| `Multiple Lines`    | Indicates if the customer subscribes to multiple telephone lines with the company: Yes, No                                     |
+| `Internet Service`  | Indicates if the customer subscribes to Internet service with the company: No, DSL, Fiber Optic, Cable                         |
+| `Online Security`   | Indicates if the customer subscribes to an additional online security service provided by the company: Yes, No                 |
+| `Online Backup`     | Indicates if the customer subscribes to an additional online backup service provided by the company: Yes, No                   |
+| `Device Protection` | Indicates if the customer subscribes to an additional device protection plan for their Internet equipment : Yes, No            |
+| `Tech Support`      | Indicates if the customer subscribes to an additional technical support plan from the company with reduced wait times: Yes, No |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
+| `Gender`            | The customer's gender: Male, Female                                                                                            |
 
 ### Technology Stack <a name="subparagraph2"></a>
 
