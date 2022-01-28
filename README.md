@@ -121,7 +121,7 @@ The following seven models have been trained and tested:
    Logistic regression is a predictive modelling algorithm that is used when the Y variable is binary categorical in this instance Churn value i.e. it can take only two values like 1 or 0. The goal is to determine a mathematical equation that can be used to predict the probability of event 1 i.e. affirmative customer churn.
 
 2. Support Vector Machine
-   SVM or Support Vector Machine is a linear model for classification- this algorithm creates a line or a hyperplane which separates the data into classes.
+   SVM or Support Vector Machine is a linear model for classification - this algorithm creates a line or a hyperplane which separates the data into classes.
 
 3. Decision Tree
    Decision Tree uses a flowchart like a tree structure to show the predictions that result from a series of feature-based splits. It starts with a root node and ends with a decision made by leaves.
@@ -133,8 +133,10 @@ The following seven models have been trained and tested:
    XGBoost is a supervised learning algorithm, which attempts to accurately predict a target variable by combining the estimates of a set of simpler, weaker models.
 
 6. CatBoost
+   CatBoost is an algorithm for gradient boosting on decision trees. It provides a gradient boosting framework which attempts to solve for Categorical features using a permutation driven alternative compared to the classical algorithm.
 
 7. Deep Learning using Keras
+   Representation based learning neural network algorithm used to trained the data to find out abstract patterns in data to differentiate churn customers from existing customers.
 
 ### Model Training <a name="subparagraph7"></a>
 
