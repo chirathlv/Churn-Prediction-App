@@ -35,7 +35,7 @@ This project has developed a web based application that facilitates the processi
 
 ### Data Sources <a name="subparagraph1"></a>
 
-This is IBM Cognos Analytics 11.1.3+ base samples Telco customer churn dataset. There are total number of 7043 observations and 33 features. Here is the description of its features.
+This is IBM Cognos Analytics 11.1.3+ base samples Telco customer churn dataset. There are total number of 7043 observations and 33 features. Here is the description of each features. Additional details of how the dataset is produced can be found in the kaggle link in the reference section.
 
 | Feature             | Description                                                                                                                                                                                                   |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -74,6 +74,22 @@ This is IBM Cognos Analytics 11.1.3+ base samples Telco customer churn dataset. 
 | `Churn Reason`      | A customer's specific reason for leaving the company. Directly related to Churn Category                                                                                                                      |
 
 ### Technology Stack <a name="subparagraph2"></a>
+
+- pandas 1.0.5
+- numpy 1.18.5
+- fastapi 0.72.0
+- pydantic 1.8.2
+- uvicorn 0.17.0
+- streamlit 1.3.1
+- seaborn 0.10.1
+- plotly 5.3.1
+- matplotlib 3.2.2
+- imblearn 0.8.1
+- sklearn 1.0.0
+- xgboost 1.5.1
+- catboost 1.0.4
+- tensorflow 2.7.0
+- joblib 0.16.0
 
 ### Technical Solution <a name="subparagraph3"></a>
 
