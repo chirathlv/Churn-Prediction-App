@@ -75,21 +75,23 @@ This is IBM Cognos Analytics 11.1.3+ base samples Telco customer churn dataset. 
 
 ### Technology Stack <a name="subparagraph2"></a>
 
-- pandas 1.0.5
-- numpy 1.18.5
-- fastapi 0.72.0
-- pydantic 1.8.2
-- uvicorn 0.17.0
-- streamlit 1.3.1
-- seaborn 0.10.1
-- plotly 5.3.1
-- matplotlib 3.2.2
-- imblearn 0.8.1
-- sklearn 1.0.0
-- xgboost 1.5.1
-- catboost 1.0.4
-- tensorflow 2.7.0
-- joblib 0.16.0
+| Package      | Version |
+| ------------ | ------- |
+| `pandas`     | 1.0.5   |
+| `numpy`      | 1.18.5  |
+| `fastapi`    | 0.72.0  |
+| `pydantic`   | 1.8.2   |
+| `uvicorn`    | 0.17.0  |
+| `streamlit`  | 1.3.1   |
+| `seaborn`    | 0.10.1  |
+| `plotly`     | 5.3.1   |
+| `matplotlib` | 3.2.2   |
+| `imblearn`   | 0.8.1   |
+| `sklearn`    | 1.0.0   |
+| `xgboost`    | 1.5.1   |
+| `catboost`   | 1.0.4   |
+| `tensorflow` | 2.7.0   |
+| `joblib`     | 0.16.0  |
 
 ### Technical Solution <a name="subparagraph3"></a>
 
