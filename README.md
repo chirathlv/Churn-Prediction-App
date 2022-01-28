@@ -175,3 +175,11 @@ Steps:
 ## References <a name="paragraph6"></a>
 
 1. https://www.kaggle.com/
+2. https://catboost.ai/
+3. https://scikit-learn.org/
+4. https://pandas.pydata.org/
+5. https://fastapi.tiangolo.com/
+6. https://streamlit.io/
+7. https://aws.amazon.com/
+8. https://www.tensorflow.org/
+9. https://xgboost.readthedocs.io/en/stable/#
