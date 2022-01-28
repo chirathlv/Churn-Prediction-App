@@ -97,7 +97,7 @@ This is IBM Cognos Analytics 11.1.3+ base samples Telco customer churn dataset. 
 
 Following is the Application Architecture from end to end.
 
-[Application Architecture](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Application%20Architecture.png)
+![Application Architecture](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Application%20Architecture.png)
 
 ### Coding and Release Standards <a name="subparagraph4"></a>
 
