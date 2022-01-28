@@ -98,7 +98,7 @@ The cleansed data set has then been pre processed i.e. prepared for the applicat
 
 1. Selection of the target feature- Churn value has been selected as the target feature.
 2. Application of the Label Encoder function to convert categorical and text data into numerical values.
-3. Application of the K Fold cross validation function to determine train and test data to avoid overfitting.
+3. Application of the K Fold cross validation function to avoid model overfitting.
 4. Application of Standard Scaler function across the data set. This was required to normalise count values of certain fields that were disproportionate.
 5. Application of oversampling tools to correct the imbalanced data.
 
@@ -151,25 +151,25 @@ Below is the visual representation of the predictions for the various models:
 
 ### Model Evaluation <a name="subparagraph9"></a>
 
-Based on the above, it has been determined that XGBoost Model provides the best prediction. Hence this model has been deployed to the Churn Prediction Application.
+Based on the above, it has been determined that XGBoost Model provides the best prediction. Hence this model has been integrated to the Churn Prediction Application.
 
-The models' predictions have been constrained by the rather limited data set that ChatCo has provided.
+The models' predictions have been constrained by rather limited data set that ChatCo has provided.
 
 ## Web Application <a name="paragraph5"></a>
 
-As requested by ChatCo, a web application with cloud based RestAPI has been developed. The simple User Interface requires the user to upload the data in a predetermined csv format followed by a request to predict the churn value for the successfully loaded data.
+As requested by ChatCo, a web application with cloud based RestfulAPI has been developed and deployed in AWS EC2 instance. The simple User Interface requires the user to upload the data in a predetermined csv or excel format followed by a request to predict the churn value for the successfully loaded data.
 
 Given below are the key user instructions for this web application:
 
 Steps:
 
 1. Store data per format in your local folder.
-2. Select " " to upload the data.
+2. Select .CSV / .XLSX file to upload the data.
 3. Verify that data upload is correct.
 4. Select "Predict" to obtain the Churn value for the data loaded.
-5. Review column 1 which displays Customer Churn.
+5. Review column 1 which displays Customer Churn Predictions.
 6. Apply filters to obtain a more granular view of the data.
 
 ## References <a name="paragraph6"></a>
 
-1. [(https://www.kaggle.com/)]
+1. https://www.kaggle.com/
