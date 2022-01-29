@@ -2,6 +2,12 @@
 
 ![App Demo](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Demo.gif)
 
+# Before Starts
+
+You will need to have `Mapbox Access Token` before running the App. To get that, please visit below link and create an account first and get the token. Then insert that token into `.env` file in the repo before starting the App.
+
+[Create Mapbox Access Token](https://account.mapbox.com/auth/signin/?route-to=https%3A%2F%2Fstudio.mapbox.com%2F)
+
 # Table of Contents
 
 1. [Introduction- Churn Predictor Application](#Introduction)
