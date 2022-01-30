@@ -2,11 +2,17 @@
 
 ![App Demo](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Demo.gif)
 
-# Before Starts
+# Before Starting
 
 You will need to have `Mapbox Access Token` before running the App. To get that, please visit below link and create an account first and get the token. Then insert that token into `.env` file in the repo before starting the App.
 
 [Create Mapbox Access Token](https://account.mapbox.com/auth/signin/?route-to=https%3A%2F%2Fstudio.mapbox.com%2F)
+
+# Run the App
+
+Clone the repo first and then cd into the repo. Then execute below command to run the App.
+
+`streamlit run app.py`
 
 # Table of Contents
 
@@ -41,7 +47,7 @@ This project has developed a web based application that facilitates the processi
 
 ### Data Sources <a name="subparagraph1"></a>
 
-This is IBM Cognos Analytics 11.1.3+ base samples Telco customer churn dataset. Further details of how the dataset is preoduced can be found in the kaggle link in the reference section.
+This is IBM Cognos Analytics 11.1.3+ base samples Telco customer churn dataset. Further details of how the dataset is produced can be found in the kaggle link in the reference section.
 
 | Number of Observations | Number of Features |
 | ---------------------- | ------------------ |
