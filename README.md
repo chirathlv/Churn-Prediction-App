@@ -31,7 +31,8 @@ Clone the repo first and then cd into the repo. Then execute below command to ru
    4. [Model Prediction](#Subparagraph8)
    5. [Model Evaluation](#Subparagraph9)
 6. [Web Application](#Paragraph5)
-7. [References](#Paragraph6)
+7. [RESTful API Deployment](#Paragraph6)
+8. [References](#Paragraph7)
 
 <div style="page-break-after: always;"></div>
 
@@ -184,7 +185,7 @@ Steps:
 5. Review column 1 which displays Customer Churn Predictions.
 6. Apply filters to obtain a more granular view of the data.
 
-## RESTful API Deployment
+## RESTful API Deployment <a name="paragraph6"></a>
 
 Currently REST API is runnig on AWS EC2 instance. However, the API code has been included in this repo, so you can experiment how it works in your workstation. Follow below steps to run it locally.
 
@@ -206,7 +207,7 @@ Steps:
 4. Save the changes and run the `streamlit run app.py`
 5. If you want to revert the changes then replace `"http://localhost:8000/predict/"` with `"http://ec2-3-25-148-140.ap-southeast-2.compute.amazonaws.com:8000/predict/"` at step 3
 
-## References <a name="paragraph6"></a>
+## References <a name="paragraph7"></a>
 
 1. https://www.kaggle.com/
 2. https://catboost.ai/
