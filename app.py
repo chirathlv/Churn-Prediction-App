@@ -149,10 +149,8 @@ if st.session_state['upload']:
                                         index_col=False)
                 elif ext == 'xlsx':
                     df = pd.read_excel(upload_data,
-                                            engine='openpyxl', 
-                                            sheet_name=0, 
-                                            encoding='UTF-8',
-                                            index_col=False)
+                                        sheet_name=0,
+                                        index_col=False)
                 else:
                     return None
 
@@ -168,7 +166,7 @@ if st.session_state['upload']:
                     st.info('Your Dataset has a problem, please check before uploading!')
                     return None
             else:
-                st.info('Upload your CSV file from the sidebar section')
+                st.info('Upload your CSV / Excel file from the sidebar section')
                 return None
         
         else:
@@ -315,4 +313,4 @@ else:
     # Reset the session
     st.session_state['state'] = 'begin'
     # Upload notification to begin
-    st.info('Upload your CSV file from the sidebar section')
+    st.info('Upload your CSV / Excel file from the sidebar section')
