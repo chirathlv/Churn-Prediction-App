@@ -22,8 +22,7 @@
    4. [Model Prediction](#Subparagraph8)
    5. [Model Evaluation](#Subparagraph9)
 6. [Web Application](#Paragraph5)
-7. [RESTful API Deployment](#Paragraph6)
-8. [References](#Paragraph7)
+7. [References](#Paragraph6)
 
 <div style="page-break-after: always;"></div>
 
@@ -183,7 +182,7 @@ Based on the prediction validation, hyper parameters have been further fine tune
 
 ### Model Predictions <a name="subparagraph8"></a>
 
-Below is the visual representation of the predictions for the various models:
+Below is the visual representation of the predictions (0 = Retain / 1 = Churn) for the various models:
 
 ![Summary Results- All Models](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Model%20Results.PNG)
 
@@ -210,7 +209,7 @@ Steps:
 5. Review column 1 which displays Customer Churn Predictions.
 6. Apply filters to obtain a more granular view of the data.
 
-## References <a name="paragraph7"></a>
+## References <a name="paragraph6"></a>
 
 1. https://www.kaggle.com/
 2. https://catboost.ai/
