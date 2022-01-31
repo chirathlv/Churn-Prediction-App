@@ -9,9 +9,10 @@
    1. [Data Sources](#SubParagraph1)
    2. [Technology Stack](#Subparagraph2)
    3. [Before Starting](#Subparagraph3)
-   4. [Run the App](#Subparagraph4)
-   5. [Technical Solution](#Subparagraph5)
-   6. [Coding and Release Standards](#Subparagraph6)
+   4. [Before Starting](#Subparagraph4)
+   5. [Run the App](#Subparagraph5)
+   6. [Technical Solution](#Subparagraph6)
+   7. [Coding and Release Standards](#Subparagraph6)
 3. [Analysis and Data Cleanse](#Paragraph2)
 4. [Data Pre Processing](#Paragraph3)
 5. [Model Development](#Paragraph4)
@@ -70,19 +71,41 @@ You will need to have `Mapbox Access Token` before running the App. To get that,
 
 [Create Mapbox Access Token](https://account.mapbox.com/auth/signin/?route-to=https%3A%2F%2Fstudio.mapbox.com%2F)
 
-### Run the App <a name="subparagraph4"></a>
+### RESTful API Deployment <a name="subparagraph4"></a>
+
+Currently REST API is runnig on AWS EC2 instance. So, you do not have to follow these steps. However, the API code has been included in this repo, so you can experiment how it works in your workstation. Follow below steps to run it locally if you want.
+
+Steps:
+
+1. Clone the entire repo first
+2. Open a terminal and cd into the `API` folder
+3. Run the command `python3 main.py` from your terminal
+4. To check the API Status run this URL from your browser `http://localhost:8000/`
+5. If you see the message `{"message":"System is up and running"}` means it is now runnig
+
+Client `app.py` is configured with AWS API URL so you need to change it now.
+
+Steps:
+
+1. Open another terminal and go to your cloned repo
+2. Open the `app.py` from a python code editor
+3. Change line number `219` from `"http://ec2-3-25-148-140.ap-southeast-2.compute.amazonaws.com:8000/predict/"` to `"http://localhost:8000/predict/"`
+4. Save the changes and run the `streamlit run app.py`
+5. If you want to revert the changes then replace `"http://localhost:8000/predict/"` with `"http://ec2-3-25-148-140.ap-southeast-2.compute.amazonaws.com:8000/predict/"` at step 3
+
+### Run the App <a name="subparagraph5"></a>
 
 Clone the repo first and then cd into the repo. Then execute below command to run the App. You can experiment with a test dataset `churn_customer_batch.csv` located at `Data` folder in the repo.
 
 `streamlit run app.py`
 
-### Technical Solution <a name="subparagraph5"></a>
+### Technical Solution <a name="subparagraph6"></a>
 
 Following is the Application Architecture from end to end.
 
 ![Application Architecture](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Application%20Architecture.png)
 
-### Coding and Release Standards <a name="subparagraph6"></a>
+### Coding and Release Standards <a name="subparagraph7"></a>
 
 Following rules have been applied during code development and testing:
 
@@ -186,28 +209,6 @@ Steps:
 4. Select "Predict" to obtain the Churn value for the data loaded.
 5. Review column 1 which displays Customer Churn Predictions.
 6. Apply filters to obtain a more granular view of the data.
-
-## RESTful API Deployment <a name="paragraph6"></a>
-
-Currently REST API is runnig on AWS EC2 instance. However, the API code has been included in this repo, so you can experiment how it works in your workstation. Follow below steps to run it locally.
-
-Steps:
-
-1. Clone the entire repo first
-2. Open a terminal and cd into the `API` folder
-3. Run the command `python3 main.py` from your terminal
-4. To check the API Status run this URL from your browser `http://localhost:8000/`
-5. If you see the message `{"message":"System is up and running"}` means it is now runnig
-
-Client `app.py` is configured with AWS API URL so you need to change it now.
-
-Steps:
-
-1. Open another terminal and go to your cloned repo
-2. Open the `app.py` from a python code editor
-3. Change line number `219` from `"http://ec2-3-25-148-140.ap-southeast-2.compute.amazonaws.com:8000/predict/"` to `"http://localhost:8000/predict/"`
-4. Save the changes and run the `streamlit run app.py`
-5. If you want to revert the changes then replace `"http://localhost:8000/predict/"` with `"http://ec2-3-25-148-140.ap-southeast-2.compute.amazonaws.com:8000/predict/"` at step 3
 
 ## References <a name="paragraph7"></a>
 
