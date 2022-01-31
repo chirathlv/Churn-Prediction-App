@@ -2,26 +2,16 @@
 
 ![App Demo](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Demo.gif)
 
-# Before Starting
-
-You will need to have `Mapbox Access Token` before running the App. To get that, please visit below link and create an account first and get the token. Then insert that token into `.env` file in the repo before starting the App.
-
-[Create Mapbox Access Token](https://account.mapbox.com/auth/signin/?route-to=https%3A%2F%2Fstudio.mapbox.com%2F)
-
-# Run the App
-
-Clone the repo first and then cd into the repo. Then execute below command to run the App. You can experiment with a test dataset `churn_customer_batch.csv` located at `Data` folder in the repo.
-
-`streamlit run app.py`
-
 # Table of Contents
 
 1. [Introduction- Churn Predictor Application](#Introduction)
 2. [Data, Technology and Coding Standards](#Paragraph1)
    1. [Data Sources](#SubParagraph1)
    2. [Technology Stack](#Subparagraph2)
-   3. [Technical Solution](<(#Subparagraph3)>)
-   4. [Coding and Release Standards](#Subparagraph4)
+   3. [Before Starting](#Subparagraph3)
+   4. [Run the App](#Subparagraph4)
+   5. [Technical Solution](#Subparagraph5)
+   6. [Coding and Release Standards](#Subparagraph6)
 3. [Analysis and Data Cleanse](#Paragraph2)
 4. [Data Pre Processing](#Paragraph3)
 5. [Model Development](#Paragraph4)
@@ -74,13 +64,25 @@ This is IBM Cognos Analytics 11.1.3+ base samples Telco customer churn dataset. 
 | `tensorflow` | 2.7.0   |
 | `joblib`     | 0.16.0  |
 
-### Technical Solution <a name="subparagraph3"></a>
+### Before Starting <a name="subparagraph3"></a>
+
+You will need to have `Mapbox Access Token` before running the App. To get that, please visit below link and create an account first and get the token. Then insert that token into `.env` file in the repo before starting the App.
+
+[Create Mapbox Access Token](https://account.mapbox.com/auth/signin/?route-to=https%3A%2F%2Fstudio.mapbox.com%2F)
+
+### Run the App <a name="subparagraph4"></a>
+
+Clone the repo first and then cd into the repo. Then execute below command to run the App. You can experiment with a test dataset `churn_customer_batch.csv` located at `Data` folder in the repo.
+
+`streamlit run app.py`
+
+### Technical Solution <a name="subparagraph5"></a>
 
 Following is the Application Architecture from end to end.
 
 ![Application Architecture](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Application%20Architecture.png)
 
-### Coding and Release Standards <a name="subparagraph4"></a>
+### Coding and Release Standards <a name="subparagraph6"></a>
 
 Following rules have been applied during code development and testing:
 
