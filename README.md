@@ -9,7 +9,7 @@
    1. [Data Sources](#SubParagraph1)
    2. [Technology Stack](#Subparagraph2)
    3. [Before Starting](#Subparagraph3)
-   4. [Before Starting](#Subparagraph4)
+   4. [RESTful API Deployment](#Subparagraph4)
    5. [Run the App](#Subparagraph5)
    6. [Technical Solution](#Subparagraph6)
    7. [Coding and Release Standards](#Subparagraph6)
