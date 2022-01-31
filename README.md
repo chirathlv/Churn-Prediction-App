@@ -72,7 +72,9 @@ You will need to have `Mapbox Access Token` before running the App. To get that,
 
 ### RESTful API Deployment <a name="subparagraph4"></a>
 
-Currently REST API is runnig on AWS EC2 instance. So, you do not have to follow these steps. However, the API code has been included in this repo, so you can experiment how it works in your workstation. Follow below steps to run it locally if you want.
+Currently REST API is runnig on AWS EC2 instance. So, you do not have to follow these steps.
+
+However, the API code has been included in this repo, so you can experiment how it works in your workstation. Follow below steps to run it locally if you want.
 
 Steps:
 
@@ -147,7 +149,7 @@ The pipeline function has been used to automate the training, validation and pre
 
 ## Machine Learning Overview <a name="subparagraph5"></a>
 
-Below is an overview Machine Learning Model Procedure.
+Below is an overview of the Machine Learning process.
 ![Machine Learning Overview](https://github.com/chirathlv/Churn-Prediction-App/blob/pre-prod/Images/Machine%20Learning%20Workflow.png)
 
 ### Models <a name="subparagraph6"></a>
