@@ -184,6 +184,28 @@ Steps:
 5. Review column 1 which displays Customer Churn Predictions.
 6. Apply filters to obtain a more granular view of the data.
 
+## RESTful API Deployment
+
+Currently REST API is runnig on AWS EC2 instance. However, the API code has been included in this repo, so you can experiment how it works in your workstation. Follow below steps to run it locally.
+
+Steps:
+
+1. Clone the entire repo first
+2. Open a terminal and cd into the `API` folder
+3. Run the command `python3 main.py` from your terminal
+4. To check the API Status run this URL from your browser `http://localhost:8000/`
+5. If you see the message `{"message":"System is up and running"}` means it is now runnig
+
+Client `app.py` is configured with AWS API URL so you need to change it now.
+
+Steps:
+
+1. Open another terminal and go to your cloned repo
+2. Open the `app.py` from a python code editor
+3. Change line number `219` from `"http://ec2-3-25-148-140.ap-southeast-2.compute.amazonaws.com:8000/predict/"` to `"http://localhost:8000/predict/"`
+4. Save the changes and run the `streamlit run app.py`
+5. If you want to revert the changes then replace `"http://localhost:8000/predict/"` with `"http://ec2-3-25-148-140.ap-southeast-2.compute.amazonaws.com:8000/predict/"` at step 3
+
 ## References <a name="paragraph6"></a>
 
 1. https://www.kaggle.com/
