@@ -10,7 +10,7 @@ You will need to have `Mapbox Access Token` before running the App. To get that,
 
 # Run the App
 
-Clone the repo first and then cd into the repo. Then execute below command to run the App.
+Clone the repo first and then cd into the repo. Then execute below command to run the App. You can experiment with a test dataset `churn_customer_batch.csv` located at `Data` folder in the repo.
 
 `streamlit run app.py`
 
